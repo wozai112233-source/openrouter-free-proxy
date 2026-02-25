@@ -1,0 +1,37 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Local environment/config files
+.env
+.env.local
+
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*$.py.class
+
+# Logs
+*.log
+proxy.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / tooling
+.idea/
+.vscode/
+
+# Model cache & state
+model_cache.json
+model_cache.json.tmp
+
+# LangGraph / local artifacts
+langgraph/
+map/
+x/
+
+# Other
+*.swp
+*.swo
